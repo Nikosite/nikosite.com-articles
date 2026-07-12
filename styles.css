@@ -19,6 +19,15 @@ a {
 .day {
   background-image: url("./Images/WebBackground.gif");
   background-color: white;
+  .sticky {
+  position: fixed;
+  background-color: lightgray;
+  width: 24vw;
+  border: 3px solid gray;
+  top: 300px;
+  font-size: 1.0vw;
+  text-align: left;
+  }
   a{
   color: black;
   }
@@ -37,6 +46,16 @@ a {
 .night {
   background-image: url("./Images/WebBackgroundNight.gif");
   background-color: black;
+  .sticky {
+  position: fixed;
+  color: white;
+  background-color: #2C2C2C;
+  width: 24vw;
+  border: 3px solid #7F7F7F;
+  top: 300px;
+  font-size: 1.0vw;
+  text-align: left;
+  }
   a{
   color: white;
   }
@@ -55,4 +74,8 @@ a {
 .shadow {
   -webkit-filter: drop-shadow(0px 0px 8px #222);
   filter: drop-shadow(0px 0px 8px #222);
+}
+.float
+{
+  float: left;
 }
