@@ -22,7 +22,7 @@ a {
   .sticky {
   position: fixed;
   background-color: lightgray;
-  width: 24vw;
+  width: 26vw;
   border: 3px solid gray;
   top: 300px;
   font-size: 1.0vw;
@@ -42,6 +42,10 @@ a {
   color: black;
   font-family: monospace;
   }
+  f{
+  color: black;
+  font-family: serif;
+  }
 }
 .night {
   background-image: url("./Images/WebBackgroundNight.gif");
@@ -50,7 +54,7 @@ a {
   position: fixed;
   color: white;
   background-color: #2C2C2C;
-  width: 24vw;
+  width: 26vw;
   border: 3px solid #7F7F7F;
   top: 300px;
   font-size: 1.0vw;
@@ -68,7 +72,11 @@ a {
   }
   d{
   color: white;
-  font-family: monospace;
+  font-family: serif;
+  }
+  f{
+  color: white;
+  font-family: serif;
   }
 }
 .shadow {
